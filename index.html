@@ -1,48 +1,209 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
-</head>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heather Bree - Data Visualization Specialist and Web Developer</title>
+    <meta name="description" content="Heather Bree is a data visualization specialist and web developer with a Master's in Predictive Analytics and experience creating, enhancing and maintaining websites.">
+    <meta name="keywords" content="portfolio, freelance, data visualization, data science, data scientist, web developer, programmer, coder, python, r stats, d3, javascript">
+    <meta name="author" content="Heather Bree">
+    <meta property="og:title" content="Heather Bree - Data Visualization Specialist & Web Developer">
+    <meta property="og:description" content="Give me all your data and let me see what I can do.">
+    <meta property="og:image" content="http://www.justheatherbree.com/img/HB-socialcard.png">
+    <meta property="og:url" content="http://www.justheatherbree.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Heather Bree - Data Visualization Specialist & Web Developer">
+    <meta name="twitter:image:alt" content="Heather Bree - Data Visualization Specialist & Web Developer">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-<body>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-  <h1>Heather Bree</h1>
+    <!-- Nivo Lightbox
+    ================================================== -->
+    <link rel="stylesheet" href="css/nivo-lightbox.css" >
+    <link rel="stylesheet" href="css/nivo_lightbox_themes/default/default.css">
 
-  <img src="https://placehold.it/200x200" alt="Your Name">
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
 
-  <p>I'm a data visualization specialist. I love working in the public sector and with nonprofits. I have a particular interest in data journalism and increasing data literacy for a more informed public.</p>
-  <p>I also am a new instructor for a Data Analysis and Visualization bootcamp run as a partnership between Trilogy Education and the University of Oregon Department of Continued Education.</p>
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-  <ul>
-    <li><strong>Email:</strong> <a href="#">me@justheatherbree.com</a></li>
-    <li><strong>Github:</strong> <a href="#">blackdotbug</a></li>
-    <li><strong>Twitter:</strong> <a href="#">@justheatherbree</a></li>
-  </ul>
+    <!-- Google Fonts
+    ================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Londrina+Solid" rel="stylesheet">
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Neverending Story</td>
-      <td>The Neverending Story</td>
-      <td>something else</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>Munchkin</td>
-    </tr>
-    <tr>
-      <td>something else</td>
-      <td>The Matrix</td>
-      <td>Dragon Age: Origins</td>
-    </tr>
-  </table>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-</body>
+    <!-- Main Navigation 
+    ================================================== -->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="img/hbrainbow.png" alt="..."></a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://justheatherbree.com#tf-home" class="scroll">Home</a></li>
+                <li><a href="http://justheatherbree.com#tf-services" class="scroll">Services</a></li>
+                <li><a href="http://justheatherbree.com#tf-works" class="scroll">Work</a></li>
+                <li><a href="http://justheatherbree.com#tf-about" class="scroll">About</a></li>
+                <li><a href="http://justheatherbree.com#tf-contact" class="scroll">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- Page Header
+    ================================================== -->
+    <div id="tf-header">
+        <div class="container"> <!-- container -->
+            <ol class="breadcrumb">
+                <li><a href="http://justheatherbree.com">Home</a></li>
+                <li><a class="active">Github Pages</a></li>
+            </ol>
+        </div><!-- end container -->
+    </div>
+
+    <!-- Works Section
+    ================================================== -->
+    <div id="tf-works" class="work-detail">
+
+        <div id="work-detail-three"> <!-- fullwidth gray background -->
+            <div class="container"><!-- container -->
+
+                <div class="row"> <!-- row -->
+                    <div class="col-md-10 col-md-offset-1"> <!-- Left Blogrol col 8 -->
+
+                        <div class="works-block"> <!-- Post Wrapper -->
+                            <img src="" class="img-responsive featured" alt="...">
+                            <h5 class="media-heading"><strong>These are some of my own pet projects and their accompanying repositories if you'd like to examples of my code.</strong></h5>
+                            <hr>
+                        </div><!-- end Post Wrapper -->
+
+                    </div> <!-- end Left content col 8 -->
+
+                    <div class="col-md-5 col-md-offset-1"> <!-- Blog Sidebar -->
+                        
+                        <p></p>
+                        <hr>
+                        <dl class="dl-horizontal text-left">
+                            <dt>Date:</dt>
+                            <dd>April 2019</dd>
+                            <dt>Skills Related:</dt>
+                            <dd>Graphic Design, Logo Design</dd>
+                            <dt>Website:</dt>
+                            <dd><a href="http://tee.pub/lic/lqiGjvWK4gw">JustHeatherBree TeePublic Shop</a></dd>
+                        </dl>
+                        
+                    </div><!-- end right content col 4 -->
+
+
+                    <div class="col-md-5" id="itemsWork">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-4">
+                                <div class="work-related-thumb">
+                                    <a href="" data-lightbox-gallery="gallery1" title="">
+                                        <img src="" alt="" class="img-thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div><!-- end row -->
+                          
+            </div><!-- end container -->
+        </div> <!-- end fullwidth gray background -->
+
+    </div>
+
+    <!-- Footer 
+    ================================================== -->
+    <div id="tf-footer">
+        <div class="container"><!-- container -->
+            <p class="pull-left">© 2019 Heather Bree. All rights reserved. <a href="http://themeforces.com/item/free-ethanol-portfolio/">Theme by Rudhi Sasmito</a>.</p> <!-- copyright text here-->
+            <ul class="list-inline social pull-right">
+                <li><a href="http://twitter.com/justheatherbree"><i class="fa fa-twitter"></i></a></li> <!-- Change # With your Twitter Link -->
+                <li><a href="http://www.linkedin.com/in/heather-bree-2ba01989/"><i class="fa fa-linkedin"></i></a></li> <!-- Change # With your LinkedIn Link -->
+                <li><a href="http://blackdotbug.github.io"><i class="fa fa-github"></i></a></li> <!-- Change # With your Github Link -->
+                <li><a href="http://tee.pub/lic/lqiGjvWK4gw"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </div><!-- end container -->
+    </div>
+    
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
+
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+
+    <!-- LightBox Nivo -->
+    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        document.addEventListener('touchstart', function addtouchclass(e){ // first time user touches the screen
+            document.documentElement.classList.add('can-touch') // add "can-touch" class to document root using classList API
+            document.removeEventListener('touchstart', addtouchclass, false) // de-register touchstart event
+        }, false)
+    </script>
+  </body>
 </html>
